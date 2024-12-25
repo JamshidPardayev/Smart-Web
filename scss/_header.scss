@@ -1,0 +1,77 @@
+header{
+    width: 100%;
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+        ul{
+            display: flex;
+            column-gap: 50px;
+            a{
+                font-size: 14px;
+                font-weight: 500;
+                color: $text-color;
+                &:hover{
+                    @include text-hover;
+                }
+            }
+        }
+        button{
+            @include for-button;            
+            font-size: 14px;
+            font-weight: 500;
+            width: 118px;
+            height: 42px;
+            &:hover{
+                @include button-hover;
+            }
+        }
+        i{
+            display: none;
+        }
+    }
+    .header_hero{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: space-between;
+        gap: 0px;
+        margin-top: 136px;
+    }
+    .header_title{
+        max-width: 538px;
+        height: auto;
+        h1{
+            font-family: Rubik;
+            font-size: 72px;
+            font-weight: 500;
+            line-height: 85.32px;
+            color: $text-color;
+            max-width: 515px;
+        }
+        p{
+            font-family: Rubik;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 23.7px;
+            max-width: 536px;
+            color: $text-color;
+            margin-top: 42px;
+        }
+        button{
+            width: 219px;
+            height: 53px;
+            font-family: Rubik;
+            font-size: 20px;
+            font-weight: 400;
+            @include for-button;
+            margin-top: 50px;
+            &:hover{
+                @include button-hover;
+            }
+        }
+    }
+    .header_img{
+        max-width: 626px;
+    }
+}

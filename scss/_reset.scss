@@ -1,0 +1,14 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: DM Sans;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #F9FAFF;
+    width: 100%;
+    height: 100%;
+}
