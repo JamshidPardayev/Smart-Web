@@ -253,6 +253,7 @@ header .header_img {
   max-width: 392px;
   min-height: 367px;
   border-radius: 11px;
+  background-color: #ffffff;
 }
 .project .project-card .cards img {
   height: 300px;
@@ -314,6 +315,7 @@ header .header_img {
   height: 249px;
   margin: auto;
   overflow: hidden;
+  margin: 0px 10px;
 }
 .team .team_card .cards .cards_img img {
   height: 100%;
@@ -327,6 +329,7 @@ header .header_img {
   height: 249px;
   padding-top: 10px;
   margin: auto;
+  margin: 0px 10px;
 }
 .team .team_card .cards .cards_img1 img {
   height: 100%;
